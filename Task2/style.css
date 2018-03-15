@@ -20,11 +20,7 @@ div{
 
 div div{
     width: 1000px;
-    margin:auto;
-    
-    text-align:justify;
-    background-color: lavender;
-
+   
 }
 a:hover{
     color:plum;
