@@ -12,7 +12,7 @@
     background-color: whitesmoke;
    
 }
-.hw-wrapper__hearder-background{    
+.hw-hearder__hearder-background{    
     z-index: 1 ;
     transform: rotate(-7deg);
     display:flex;
