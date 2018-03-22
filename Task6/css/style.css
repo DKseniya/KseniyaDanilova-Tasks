@@ -1,4 +1,4 @@
-.hw-wrapper{
+.hw-box__wrapper{
     width:900px;
     height:2000px;
     background-color: rgba(255, 255, 255, 0.8);
@@ -12,13 +12,7 @@
     background-color: whitesmoke;
    
 }
-.hw-hearder__hearder-background{    
-    z-index: 1 ;
-    transform: rotate(-7deg);
-    display:flex;
-    flex-flow:row wrap;
-    margin:-45px;
-}
+
 .hw-hearder__box-logo{
     z-index: 2;
     background-color:  rgba(255,255,255,0.8);
@@ -44,65 +38,70 @@
     padding-top:0.2em;
     
   }
-
+.hw-hearder__hearder-background{    
+    z-index: 1 ;
+    transform: rotate(-7deg);
+    display:flex;
+    flex-flow:row wrap;
+    margin:-40px;
+    
+}
    
-    
-    
-     
-    
 
-.icon {
+.hw-background-icon__icon{
     width: 24px;
     height: 24px;
     background: url(./../images/icons.png);
     border-radius: 5px;
     margin-right:15px;
     margin-bottom:15px;
+    display:flex;
+     
   }
   
-.facebook  {
+.hw-icon_facebook-icon  {
      background-position: -8px -48px;      
 }
 
-.flickr  { /*two white dots*/
+.hw-icon_flickr-icon  { /*two white dots*/
     background-position: -49px -48px;
 }
 
-.dribbble  { /*a ball*/
+.hw-icon_dribbble-icon  { /*a ball*/
     background-position: -90px -48px;
 }
 
-.google {
+.hw-icon_google-icon {
     background-position: -131px -48px;
 }
 
-.linkedin {
+.hw-icon_linkedin-icon {
     background-position: -172px -48px;
 }
 
-.pinterest{
+.hw-icon_pinterest-icon{
     background-position: -213px -48px;
 }
 
-.rss{
+.hw-icon_rss-icon{
     background-position: -254px -48px;
 }
 
-.skype{
+.hw-icon_skype-icon{
     background-position: -295px -48px;
 }
-.twitter{
+.hw-icon_twitter-icon{
     background-position: -336px -48px;
 }
-.vk{
+.hw-icon_vk-icon{
     background-position: -377px -48px;
 }
-.youtube{
+.hw-icon_youtube-icon{
     background-position: -418px -48px;
 }
 
 
-.hw-content{
+.hw-wrapper__content{
     display:flex;
     flex-flow: column;
 
@@ -118,86 +117,90 @@
     padding-top: 25px; 
 }
 
-.hw-content-light-block{
+.hw-content-block_light-block{
     background-color:white;
     border: 1px solid lightgray;
 }
 
-.hw-content-dark-block{
+.hw-content-block_dark-block{
     background-color:dimgray;
     
 }
 
-.hw-content-block__rows{
+.hw-button-block__rows{
     display: flex;
     flex-flow: row;
-    margin-top: 8px;
+    margin-bottom:5px;
 }
-.hw-button-base{
+.hw-button-block__button{
+    margin-right:5px; 
+   
     border-radius:3px;
     border: 0px;
     box-shadow: 0 1px 3px rgba(0,0,0,0.7);
-    color:white;
-    
-    
-    
-    
-    
+    color:white;  
+
 }
 
-.hw-content-block__pink-button{
+.hw-button_pink-button{
+    background: linear-gradient(to top, mediumvioletred,pink);
+}
+
+.hw-button_pink-button-size{
     width:105px;
     height:25px;
-    background: linear-gradient(to top, mediumvioletred,pink);
     font-size: 18px;
-    margin-right: 5px;
-    
-    
 }
 
-.hw-content-block__green-button{
-    width:60px;
-    height:16px;
-    background: linear-gradient(to top, green, greenyellow);
-    font-size: 8px;
+.hw-button_green-button{
+    background: linear-gradient(to top, green, greenyellow); 
     margin-top:0.75em;
     
-    
 }
-.hw-content-block__blue-button{
-    width:50px;
+.hw-button_green-button-size{
+    width:60px;
     height:16px;
+    font-size: 8px;
+
+}
+.hw-button_blue-button{
     background: linear-gradient(to top, cornflowerblue, lightblue);
-    font-size: 7px;
-    margin-right: 5px;
-    
-    
-   
 }
-.hw-content-block__red-button{
+
+.hw-button_blue-button-size{
     width:50px;
     height:16px;
-    background: linear-gradient(to top, crimson, lightcoral);
     font-size: 7px;
-    
 }
 
-.hw-content-block__orange-button{
-    width:65px;
+.hw-button_red-button{
+    background: linear-gradient(to top, crimson, lightcoral);
+}
+.hw-button_red-button-size{
+    width:50px;
     height:16px;
+    font-size: 7px;
+}
+
+.hw-button_orange-button{
     background: linear-gradient(to top,orangered, darkorange);
-    font-size: 8px;
-    margin-right: 5px;
 }
-.hw-content-block__yellow-button{
+.hw-button_orange-button-size{
     width:65px;
     height:16px;
-    background-color: orange;
     font-size: 8px;
-   
+
+}
+.hw-button_yellow-button{
+    background-color: orange; 
+}
+.hw-button_yellow-button-size{
+    width:65px;
+    height:16px;
+    font-size: 8px;
 }
 
-.hw-small-size-button{
+.hw-button_small-button{
     font-size:44%;
     width: -webkit-fit-content;
     height:14px;
