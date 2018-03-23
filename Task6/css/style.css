@@ -1,16 +1,15 @@
 .hw-box__wrapper{
     margin:auto ;
     width:900px;
-    height:2000px;
+    height:600px;
     background-color: rgba(255, 255, 255, 0.8);
     box-shadow: 0 0 30px rgba(0,0,0,0.7);
 }
-.hw-wrapper__hearder{
+.hw-hearder__box{
     overflow:hidden;
     max-height: 250px;
     max-width:900px;
     background-color: whitesmoke;
-   
 }
 
 .hw-hearder__box-logo{
@@ -21,10 +20,7 @@
     width:325px;
     height:90px;
     background-color:  rgba(255,255,255,0.8);
-   
-  
-
-    
+       
 }
 .hw-hearder__logo{
     margin:auto;
@@ -40,76 +36,72 @@
     
     
   }
-.hw-hearder__hearder-background{    
+
+.hw-header__icons-box{
     display:flex;
     flex-flow:row wrap;
-    margin:-40px;
+    margin:-40px -40px;
     z-index: 1 ;
     transform: rotate(-7deg); 
+}  
+.hw-icon{
 }
-   
 
-.hw-background-icon__icon{
+.hw-icon__base{
     margin-right:15px;
     margin-bottom:15px;
     width: 24px;
     height: 24px;
     border-radius: 5px;
-    background: url(./../images/icons.png);
-     
-     
+    background: url(./../images/icons.png);   
   }
   
-.hw-icon_facebook-icon  {
+.hw-icon__base_facebook-icon  {
      background-position: -8px -48px;      
 }
 
-.hw-icon_flickr-icon  { /*two white dots*/
+.hw-icon__base_flickr-icon  { /*two white dots*/
     background-position: -49px -48px;
 }
 
-.hw-icon_dribbble-icon  { /*a ball*/
+.hw-icon__base_dribbble-icon  { /*a ball*/
     background-position: -90px -48px;
 }
 
-.hw-icon_google-icon {
+.hw-icon__base_google-icon {
     background-position: -131px -48px;
 }
 
-.hw-icon_linkedin-icon {
+.hw-icon__base_linkedin-icon {
     background-position: -172px -48px;
 }
 
-.hw-icon_pinterest-icon{
+.hw-icon__base_pinterest-icon{
     background-position: -213px -48px;
 }
 
-.hw-icon_rss-icon{
+.hw-icon__base_rss-icon{
     background-position: -254px -48px;
 }
 
-.hw-icon_skype-icon{
+.hw-icon__base_skype-icon{
     background-position: -295px -48px;
 }
-.hw-icon_twitter-icon{
+.hw-icon__base_twitter-icon{
     background-position: -336px -48px;
 }
-.hw-icon_vk-icon{
+.hw-icon__base_vk-icon{
     background-position: -377px -48px;
 }
-.hw-icon_youtube-icon{
+.hw-icon__base_youtube-icon{
     background-position: -418px -48px;
 }
 
-
-.hw-wrapper__content{
-    display:flex;
-    flex-flow: column;
-
+.hw-content__box{
+    width:900px;
 }
 
-
-.hw-content__content-block{
+.hw-content__block{
     margin-left:5px;
     margin-right:  2px;
     margin-top: 10px;
@@ -118,22 +110,22 @@
     height:110px; 
 }
 
-.hw-content-block_light-block{
+.hw-content__block_light-background{
     background-color:white;
     border: 1px solid lightgray;
 }
 
-.hw-content-block_dark-block{
+.hw-content__block_dark-background{
     background-color:dimgray;
     
 }
 
-.hw-button-block__rows{
+.hw-content__button-row{
     display: flex;
     flex-flow: row;
     margin-bottom:5px;
 }
-.hw-button-block__button{
+.hw-button__item{
     margin-right:5px;   
     border-radius:3px;
     border: 0px;
@@ -142,67 +134,68 @@
 
 }
 
-.hw-button_pink-button{
+.hw-button__item_pink{
     background: linear-gradient(to top, mediumvioletred,pink);
 }
 
-.hw-button_pink-button-size{
+.hw-button__item_pink-button-size{
     width:105px;
     height:25px;
     font-size: 18px;
 }
 
-.hw-button_green-button{
+.hw-button__item_green{
     margin-top:0.75em;
     background: linear-gradient(to top, green, greenyellow); 
     
     
 }
-.hw-button_green-button-size{
+.hw-button__item_green-button-size{
     width:60px;
     height:16px;
     font-size: 8px;
 
 }
-.hw-button_blue-button{
+.hw-button__item_blue{
     background: linear-gradient(to top, cornflowerblue, lightblue);
 }
 
-.hw-button_blue-button-size{
+.hw-button__item_blue-button-size{
     width:50px;
     height:16px;
     font-size: 7px;
 }
 
-.hw-button_red-button{
+.hw-button__item_red{
     background: linear-gradient(to top, crimson, lightcoral);
 }
-.hw-button_red-button-size{
+.hw-button__item_red-button-size{
     width:50px;
     height:16px;
     font-size: 7px;
 }
 
-.hw-button_orange-button{
+.hw-button__item_orange{
     background: linear-gradient(to top,orangered, darkorange);
 }
-.hw-button_orange-button-size{
+.hw-button__item_orange-button-size{
     width:65px;
     height:16px;
     font-size: 8px;
 
 }
-.hw-button_yellow-button{
+.hw-button__item_yellow{
     background-color: orange; 
 }
-.hw-button_yellow-button-size{
+.hw-button__item_yellow-button-size{
     width:65px;
     height:16px;
     font-size: 8px;
 }
 
-.hw-button_small-button{
-        width: -webkit-fit-content;
+.hw-button__item_small{
+    font-size:44%;
+    width: -webkit-fit-content;
     height:14px;
     font-size:44%;
 }
