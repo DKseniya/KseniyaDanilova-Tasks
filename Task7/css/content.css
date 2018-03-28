@@ -1,0 +1,165 @@
+
+.t7-menu__list{
+    display:flex;
+    justify-content: space-around;
+    
+    padding: 2rem;
+    font-size: 1rem;
+    text-transform: uppercase ;
+
+}
+
+.t7-home__text-box{
+    display:flex;
+    flex-flow:wrap column;
+    align-content: center;
+    margin-top: 30%;
+    padding-left: 1rem;
+    padding-right: 1rem;
+}
+.t7-home__introduction{
+    margin: 0;
+    font-size:2rem;
+    font-family: 'SourceSansPro-SemiBold'; 
+}
+.t7-home__content{
+    line-height: 0.5rem;
+}
+.t7-home__get-started{
+    margin-top:2rem;
+    width: -webkit-fit-content;
+    border:2px solid black;
+    border-radius: 2.5rem;
+    background-color: transparent;
+    font-size:7px;
+    text-transform:uppercase;
+    font-weight:bold;
+    padding-left: 2rem;
+    padding-right: 2rem;
+    padding-top:1rem;
+    padding-bottom:1rem;
+    
+    
+}
+
+.t7-text__container{
+    display:flex;
+    flex-flow: column wrap;
+    padding: 2rem;
+ 
+    color: white;
+    
+}
+.t7-text__container_quarters{
+    justify-content:space-around;
+    align-items: center;
+    padding-left:2.2rem;
+    padding-right:2.2rem; 
+    text-align: center;
+    color:white;
+    
+}
+.t7-text__container_full-size{
+    background-color: rgba(5, 5, 5, 0.8);
+    justify-content: center;
+    align-items: center;
+    padding-left:20%;
+    padding-right:20%;
+    width:60%;
+
+}
+.t7-text_font-black{
+    color:black;
+}
+.t7-text__icon{
+    font-family:'fontawesome';
+    font-size:2rem; 
+    padding-bottom:2rem;
+    
+}
+.t7-text__icon_monitor:before {
+	content: '\f109';
+}
+.t7-text__icon_arrow:before{
+	content: '\f1d8';
+}
+.t7-text__icon_app:before{
+	content: '\f0ce';
+}
+.t7-text__icon_html5:before{
+	content: '\f13b';
+}
+.t7-text__icon_star:before{
+	content: '\f005';
+}
+
+.t7-text__h1{
+    font-size:2rem;
+    font-weight: 1;
+    padding-bottom: 0.5rem;
+    font-family: 'SourceSansPro';
+    
+}
+.t7-text__h1_medium{
+    font-size:1.5rem;
+    padding-bottom:1rem;
+}
+.t7-text__h1_large{
+    padding-top:1.5rem;
+    padding-bottom:2rem;
+    font-size:2.5rem;
+    font-weight: 1;
+}
+.t7-text__p{
+    font-size:1rem;
+    font-weight: 1;
+    font-family: 'SourceSansPro';
+    line-height: 1.5rem;
+    padding-bottom: 1rem;
+
+}
+
+
+    
+.t7-text__p_white-transp{
+    color: rgba(255,255,255,0.5);
+}   
+.t7-text_sandybrown{
+    color:sandybrown;
+    
+    
+}.t7-experience-list__box{
+    display:flex;
+    flex-flow:row wrap;
+    margin-top:2rem;
+    font-family: 'SourceSansPro';
+    color:white;
+    
+}
+.t7-experience-list__icon{
+    padding-top:5px;
+    font-family:'fontawesome';
+    font-size:2rem; 
+    
+}
+.t7-experience-list__icon_monitor:before {
+    content: '\f109';
+}
+.t7-experience-list__job{
+    font-size:1.5rem;
+    font-weight:1;
+    padding-left:20px;
+}
+.t7-experience-list__date{
+    color:black;
+    font-weight:3;
+    padding-left:10px;
+    padding-top:0.5rem;
+}
+.t7-experience-list__date_green{
+    color:darkolivegreen;
+}
+.t7-experience-list__words{
+    font-weight:1;
+    padding-left:3.5rem;
+}
