@@ -1,0 +1,128 @@
+
+@media (max-width:1200px){
+
+html{
+    font-size:15px;
+}   
+    .t7-main__container{
+        width:100%;
+        height:100%;
+    }
+    img{
+        width:100%;
+        height:auto;
+
+    }
+    .t7-section-block__base{
+        display:block;
+    }
+    .t7-skill__box{
+        margin:0px;
+        font-size:0.5rem;
+    }
+    .t7-text__container{
+        margin:4px;
+    }
+    .t7-text__icon{
+        padding-bottom:2px;
+    }
+    .t7-text__title{
+        margin-bottom: 2px;
+    }
+    .t7-list__box{
+        margin:0;
+    }
+    #section6{
+        width:50%;
+        font-size:50%;
+        margin: 0;
+    }
+    .t7-foot{
+        width:50%;
+    }
+}
+
+@media (max-width:750px){
+html{
+        font-size:10px;
+    }
+    .t7-main__container{
+        width:100%;
+        height:auto;
+    }
+    img{
+        width:100%;
+        height:auto;
+
+    }
+    .t7-section-block__base{
+        display:block;
+    }
+    .t7-skill__box{
+        margin:0px;
+        font-size:0.3rem;
+    }
+    .t7-text__container{
+        margin:2px;
+    }
+    .t7-text__icon{
+        padding-bottom:2px;
+    }
+    .t7-text__title{
+        margin-bottom: 2px;
+    }
+    .t7-list__box{
+        margin:0;
+    }
+    #section6{
+        width:50%;
+        font-size:50%;
+        margin: 0;
+    }
+    .t7-foot{
+        width:50%;
+    }
+}
+
+@media (max-width:600px){
+    html{
+            font-size:7px;
+        }
+        .t7-main__container{
+            width:600px;
+            height:auto;
+        }
+        img{
+            width:100%;
+            height:auto;
+    
+        }
+        .t7-section-block__base{
+            display:block;
+        }
+        .t7-skill__box{
+            margin:0px;
+            font-size:0.3rem;
+        }
+        .t7-text__container{
+            margin:2px;
+        }
+        .t7-text__icon{
+            padding-bottom:2px;
+        }
+        .t7-text__title{
+            margin-bottom: 2px;
+        }
+        .t7-list__box{
+            margin:0;
+        }
+        #section6{
+            width:50%;
+            font-size:50%;
+            margin: 0;
+        }
+        .t7-foot{
+            width:50%;
+        }
+    }
+    

@@ -1,15 +1,17 @@
 .t7-main__container{
     width:100%;
     max-width:1920px;
+    max-height: 1080px;
+    height:100%;
     font-size:20px;
     color:white;
+    font-family: 'SourceSansPro';
 }
 
 .t7-section-block__base{
     display:flex;
     flex-flow: wrap row;
     width:100%;
-    max-height: 1080px;
     height:100%;
 }
 .t7-section-block__element{
@@ -19,8 +21,9 @@
     
     
 }
-
-
+.t7-text-block__element_column{
+    display:block;
+}
 
 .t7-section-block__element_size-xl{
     height:100vh;
@@ -38,7 +41,7 @@
     height:64vh;
 }
 .t7-section-block__element_size-l{
-    height:78vh;
+    height:68vh;
 }
 
 .t7-section__half-element{
@@ -48,7 +51,8 @@
 }
 .t7-section-block__element_pict-section1{
     background: url(./../images/5.jpg) no-repeat;
-    background-size: 100% 100vh;
+    background-position:50% 0;
+    background-size:cover;
 
    
     
@@ -64,28 +68,33 @@
 .t7-section-block__element_pict-section2{
 
     background: url(./../images/1.jpg) no-repeat;
-    background-size: 100% 50vh;
+    background-position:50%;
+    background-size:cover;
 }
 .t7-section-block__element_pict-section4{
     background: url(./../images/4.jpg) no-repeat;
-    background-size: 100% 53vh;
+    background-position:50% ;
+    background-size:cover;
 }
 .t7-section-block__element_pict-section5{
     background: url(./../images/3.jpg) no-repeat;
-    background-size: 100% 60vh;
+    background-position:50% 50%;
+    background-size:cover;
 }
 .t7-section-block__element_pict-section6{
     background: url(./../images/6.jpg) no-repeat;
-    background-size: 100% 64vh;
+    background-position:50% 0;
+    background-size:cover;
 }
 .t7-section-block__element_pict-section7{
     background: url(./../images/2.jpg) no-repeat;
-    background-size: 100% 78vh;
+    background-position:50% 0;
+    background-size:cover;
 }
 
 
-.t7-section-block__element_background-pearch{
-    background:rgb(252, 230, 212);
+.t7-section-block__element_background-white-linen{
+    background:#F6EAE0;
 }
 .t7-section-block__element_background-white{
     background:rgb(248, 248, 248);
