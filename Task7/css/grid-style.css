@@ -69,7 +69,9 @@
 
     background: url(./../images/1.jpg) no-repeat;
     background-position:50%;
-    background-size:cover;
+    background-size: cover;
+    
+    
 }
 .t7-section-block__element_pict-section4{
     background: url(./../images/4.jpg) no-repeat;

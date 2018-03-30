@@ -1,4 +1,5 @@
 
+
 .t7-name__Stimulus{
     position:absolute;
     z-index:2;
@@ -59,7 +60,7 @@
 }
 .t7-text__container_center{ 
     justify-content: center;
-    height:100;
+    height:100%;
 }
 .t7-text_width{
     width:100%;
@@ -94,7 +95,7 @@
     display:flex;
     flex-direction:row; 
     margin-right: 5%;
-    margin-top:5%;
+    margin-top:10%;
     font-family: 'SourceSansPro';
     font-weight: 3;
     font-size:1rem;
@@ -162,7 +163,7 @@
 }
 .t7-text__title_l{
     text-align: center;
-    padding-bottom:2rem;
+    margin-bottom:2rem;
     font-size:2.5rem;
     font-weight: 1;
 }
@@ -171,7 +172,7 @@
     font-weight: 1;
     font-family: 'SourceSansPro';
     line-height: 1.5rem;
-   padding-bottom: 1rem;
+    margin-bottom: 1rem;
 
 } 
 .t7-text__paragraph_white-transp{
@@ -183,7 +184,7 @@
 .t7-list__box{
     display:flex;
     flex-flow:row wrap;
-    margin-top:2rem;
+    margin-top:1.5rem;
     font-family: 'SourceSansPro';
     color:white;
     
@@ -223,7 +224,7 @@
 .t7-form-feedback__input { 
 	display: block;
 	width: 100%;
-    height: 40px;
+    line-height: 2.5rem;
     padding-left:10px;
     border: none;
     border-bottom: 1px solid sandybrown;
@@ -258,7 +259,7 @@
     padding-left:10px;
 	border: none;
 	border-bottom: 1px solid sandybrown;
-    line-height: 30px;
+    line-height: 2rem;
     font-family: 'SourceSansPro';
 	color:white;
 	background-color: transparent;
@@ -273,13 +274,13 @@
 .t7-form-feedback__button {
 	width: 40%;
     max-width: 400px;
-    margin-top: 10px;
-    padding-top:10px;
-    padding-bottom: 10px;
+    margin-top: 0.5rem;
+    padding-top:0.5rem;
+    padding-bottom: 0.5rem;
     border-radius: 50px;
     border: none;
 	background-color:white;
-    font-size: 15px;
+    font-size: 1rem;
 	cursor: pointer;
 	outline: none;
 	transition: .3s;
