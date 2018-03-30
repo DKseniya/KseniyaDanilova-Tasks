@@ -57,9 +57,7 @@
     }
 @media (max-width:1000px){
 
-html{
-    font-size:15px;
-}
+
     .t7-main__container{
         margin:auto;
         width:100%;
@@ -74,16 +72,48 @@ html{
     .t7-section-block__base{
         display:block;
     }
+    .t7-section-block__element{
+        width:100%;
+    }
+   
+    #section6{
+        width:100%;
+        font-size:50%;
+        margin: 0;
+    }
+    .t7-foot{
+        width:100%;
+    }
+}
+
+
+@media (max-width:800px){
+html{
+        font-size:17px;
+    }
+    .t7-main__container{
+        margin:auto;
+        width:100%;
+        height:auto;
+    }
+    img{
+        width:100%;
+        height:auto;
+
+    }
+    .t7-section-block__base{
+        display:block;
+    }
     .t7-skill__box{
-        margin:0px;
+        margin:2px;
         font-size:0.5rem;
     }
     .t7-text__paragraph{
-        padding-bottom:10px;
+        margin-bottom:5px;
     }
     .t7-text__title_l{
-        margin-bottom:10px;
-        font-size:20px;
+        margin-bottom:5px;
+        font-size:15px;
     }
     .t7-text__container{
         margin:4px;
@@ -92,7 +122,7 @@ html{
         margin:0;
     }
     .t7-text__icon{
-        padding-bottom:2px;
+        padding-bottom:4px;
     }
     .t7-text__title{
         margin-bottom: 2px;
@@ -100,67 +130,17 @@ html{
     .t7-list__box{
         margin:0;
     }
+    .t7-section-block__element{
+        width:100%;
+    }
+   
     #section6{
-        width:50%;
+        width:100%;
         font-size:50%;
         margin: 0;
     }
     .t7-foot{
-        width:50%;
-    }
-}
-
-
-@media (max-width:800px){
-html{
-        font-size:10px;
-    }
-    .t7-main__container{
-        margin:auto;
         width:100%;
-        height:auto;
-    }
-    img{
-        width:100%;
-        height:auto;
-
-    }
-    .t7-section-block__base{
-        display:block;
-    }
-    .t7-skill__box{
-        margin:0px;
-        font-size:0.3rem;
-    }
-    .t7-text__paragraph{
-        margin-bottom:5px;
-    }
-    .t7-text__title_l{
-        margin-bottom:5px;
-        font-size:10px;
-    }
-    .t7-text__container{
-        margin:2px;
-    }
-    .t7-text__container_full-size{
-        margin:0;
-    }
-    .t7-text__icon{
-        padding-bottom:2px;
-    }
-    .t7-text__title{
-        margin-bottom: 1px;
-    }
-    .t7-list__box{
-        margin:0;
-    }
-    #section6{
-        width:50%;
-        font-size:50%;
-        margin: 0;
-    }
-    .t7-foot{
-        width:50%;
     }
 }
 
