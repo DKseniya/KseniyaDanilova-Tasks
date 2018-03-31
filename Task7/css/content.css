@@ -1,33 +1,31 @@
 
 
 .t7-name__Stimulus{
-    position:absolute;
-    z-index:2;
-    margin-left:12%;
-    margin-top:2%;
+    justify-content:flex-start;
     font-size:1.5rem;
-    font-weight: 3;
+    font-weight: 600;
     color:black;
     text-shadow:1px 0 white;
 }
 .t7-menu__list{
     display:flex;
     flex-flow: wrap row;
-    justify-content:space-around; 
-    margin-top:2rem;
-    position:relative;
+    justify-content:space-around;
     font-size: 0.8rem;
-    font-weight:3;
+    font-weight:400;
     text-transform: uppercase ;
     color:black;
     font-family: 'SourceSansPro';
 
 }
+.t7-menu__item{
+    margin-left: 2rem;
+}
 .t7-menu__item:link{
     color:black;
     text-decoration: none;
 }
-.t7-menu__item:active{
+.t7-menu__item:hover{
     color:tomato;
 }
 .t7-menu__item:visited{
@@ -37,12 +35,12 @@
 .t7-text__button-get-started{
     margin-top:1rem;
     width: -webkit-fit-content;
+    display:table;
     border:2px solid black;
     border-radius: 50px;
     background-color: transparent;
-    font-size:0.5rem;
     text-transform:uppercase;
-    font-weight:bold;
+    font-weight:600;
     padding-left: 2rem;
     padding-right: 2rem;
     padding-top:1rem;
@@ -50,7 +48,10 @@
     
     
 }
-
+.t7-text{
+    max-width:100%;
+    width:100%;
+}
 .t7-text__container{
     display:flex;
     flex-flow: column wrap;
@@ -59,8 +60,7 @@
     
 }
 .t7-text__container_center{ 
-    justify-content: center;
-    height:100%;
+    margin-top:30%;
 }
 .t7-text_width{
     width:100%;
@@ -69,6 +69,7 @@
     text-transform: uppercase;
 }
 .t7-text__container_quarters{
+    
     justify-content: center;
     align-items: center;
     text-align: center;
@@ -97,7 +98,7 @@
     margin-right: 5%;
     margin-top:10%;
     font-family: 'SourceSansPro';
-    font-weight: 3;
+    font-weight: 600;
     font-size:1rem;
 }
 .t7-skill__name{
@@ -150,8 +151,9 @@
 }
 
 .t7-text__title{
+
     font-size:2rem;
-    font-weight: 1;
+    font-weight: 300;
     margin-bottom: 0.5rem;
     font-family: 'SourceSansPro';
     
@@ -165,14 +167,15 @@
     text-align: center;
     margin-bottom:2rem;
     font-size:2.5rem;
-    font-weight: 1;
+    font-weight: 300;
 }
 .t7-text__paragraph{
+    max-width:100%;
     font-size:1rem;
-    font-weight: 1;
+    font-weight: 300;
     font-family: 'SourceSansPro';
     line-height: 1.5rem;
-    margin-bottom: 1rem;
+    padding-bottom: 1rem;
 
 } 
 .t7-text__paragraph_white-transp{
@@ -200,12 +203,12 @@
 }
 .t7-list__name{
     font-size:1.5rem;
-    font-weight:1;
+    font-weight:300;
     padding-left:20px;
 }
 .t7-list__date{
     color:black;
-    font-weight:3;
+    font-weight:600;
     font-size:1rem; 
     margin-left:10px;
     margin-top:0.5rem;
@@ -215,15 +218,17 @@
 }
 .t7-list__comment{
     font-size:1rem;
-    font-weight:1;
+    font-weight:300;
     padding-left:3.5rem;
 }
 .t7-form-feedback__box{
     width:40vw;
+    width:100%;
 }
 .t7-form-feedback__input { 
 	display: block;
-	width: 100%;
+    width: 100%;
+    height:2rem;
     line-height: 2.5rem;
     padding-left:10px;
     border: none;
@@ -234,21 +239,21 @@
     outline: none;
 }
 
-::-webkit-input-placeholder {
+::-webkit-input-placeholder{
     color:white;
-    font-weight:1;
+    font-weight:300;
 }
 ::-moz-placeholder {
     color:white;
-    font-weight:1;
+    font-weight:300;
 }          
 :-moz-placeholder {
     color:white;
-    font-weight:1;
+    font-weight:300;
 }           
 :-ms-input-placeholder {
     color:white;
-    font-weight:1;
+    font-weight:300;
 }      
 .t7-form-feedback__input:focus{
     background-color: rgba(255,255,255,0.2);
@@ -256,6 +261,7 @@
 .t7-form-feedback__message-box {
     display: block;
     width: 100%;
+    height:6rem;
     padding-left:10px;
 	border: none;
 	border-bottom: 1px solid sandybrown;
@@ -263,8 +269,9 @@
     font-family: 'SourceSansPro';
 	color:white;
 	background-color: transparent;
-	outline: none;
-	resize: vertical;
+    outline: none; 
+    resize: vertical;
+    overflow: auto;
 }
 .t7-form-feedback__message-box:focus {
     background-color: rgba(255,255,255,0.2);
@@ -274,7 +281,7 @@
 .t7-form-feedback__button {
 	width: 40%;
     max-width: 400px;
-    margin-top: 0.5rem;
+    margin-top: 4px;
     padding-top:0.5rem;
     padding-bottom: 0.5rem;
     border-radius: 50px;
@@ -283,7 +290,6 @@
     font-size: 1rem;
 	cursor: pointer;
 	outline: none;
-	transition: .3s;
 }
 .t7-form-feedback__button:hover {
 	color:tomato;
@@ -322,7 +328,7 @@
 .t7-foot__content{
     display:inline;
     font-family: 'SourceSansPro';
-    font-weight:2;
+    font-weight:400;
     font-size:15px;
 }
 .t7-foot__content_sandybrown{
@@ -346,4 +352,15 @@
 }
 .t7-small-icon_margin{
     margin-right:30px;
+}
+.t7-small-icon:link{
+    color:gray;
+    text-decoration: none;
+}
+.t7-small-icon:hover{
+    color:tomato;
+}
+.t7-text__link{
+    text-decoration: none;
+    color:sandybrown;
 }

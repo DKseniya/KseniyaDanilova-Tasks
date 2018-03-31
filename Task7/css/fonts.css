@@ -1,27 +1,27 @@
 
 @font-face {
-	font-family: fontawesome;
-	src: url(./../fonts/fontawesome-webfont.woff) format('woff');
+	font-family: 'fontawesome';
+	src: url(./../fonts/fontawesome-webfont.woff) format("woff");
 }
 @font-face {
-	font-family: SourceSansPro;
-	font-weight: 1;
+	font-family: 'SourceSansPro';
+	font-weight: 300;
 	src: url(../fonts/SourceSansPro-Light.ttf) format("truetype");
 }
 @font-face {
-	font-family: SourceSansPro;
-	font-weight: 2;
+	font-family: 'SourceSansPro';
+	font-weight: 400;
 	src: url(../fonts/SourceSansPro-Regular.ttf) format("truetype");
 }
 
 @font-face {
-	font-family: SourceSansPro;
-	font-weight: 3;
+	font-family: 'SourceSansPro';
+	font-weight: 600;
 	src: url(../fonts/SourceSansPro-SemiBold.ttf) format("truetype");
 }
 @font-face {
-	font-family: SourceSansPro;
-	font-weight: 4;
+	font-family: 'SourceSansPro';
+	font-weight: 700;
 	src: url(../fonts/SourceSansPro-Bold.ttf) format("truetype");
 }
 

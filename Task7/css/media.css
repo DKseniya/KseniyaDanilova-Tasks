@@ -1,15 +1,10 @@
 
-@media (max-width:1380px){
- html{
-     font-size:17px;
- }   
-      
+@media (max-width:1380px){ 
         .t7-main__container{
            
             width:100%;
             height:auto;
             margin:auto;
-            font-size:17px;
         }
         img{
             width:100%;
@@ -23,18 +18,16 @@
         .t7-skill__box{
             margin-right:2%;
             margin-top:2%;
-            font-size:0.7rem;
         }  
         .t7-text__title{
-            font-size:1.7rem;
-            font-weight: 1;
             margin-bottom: 0.3rem;
-            font-family: 'SourceSansPro';
-            
         }  
+        .t7-text__title_l{
+            max-width:100%;
+        }
         .t7-text__paragraph{
-            line-height: 1.4rem;
-            margin-bottom: 0.3rem;
+            line-height: 1.2rem;
+            margin-bottom: 0.1rem;
         }
         .t7-form-feedback__input { 
             line-height: 2.0rem;
@@ -48,7 +41,6 @@
             margin-top: 0.3rem;
             padding-top:0.3rem;
             padding-bottom: 0.3rem;
-            font-size: 0.8rem;
         }
         .t7-text__container_full-size{
             margin:0;
@@ -71,69 +63,73 @@
     }
     .t7-section-block__base{
         display:block;
+       
+    }
+    .t7-header-menu__box{
+        display:inline-block;
+        margin-left:1rem;
+        font-weight:700;
+    }
+    .t7-menu__list{
+        display:flex;
+        flex-direction:column;
+    }
+    .t7-menu__item{
+        margin-top:1rem;
     }
     .t7-section-block__element{
         width:100%;
     }
-   
-    #section6{
-        width:100%;
-        font-size:50%;
-        margin: 0;
-    }
-    .t7-foot{
-        width:100%;
-    }
-}
-
-
-@media (max-width:800px){
-html{
-        font-size:17px;
-    }
-    .t7-main__container{
-        margin:auto;
-        width:100%;
-        height:auto;
-    }
-    img{
-        width:100%;
-        height:auto;
-
-    }
-    .t7-section-block__base{
-        display:block;
-    }
-    .t7-skill__box{
-        margin:2px;
-        font-size:0.5rem;
-    }
-    .t7-text__paragraph{
-        margin-bottom:5px;
-    }
-    .t7-text__title_l{
-        margin-bottom:5px;
-        font-size:15px;
-    }
-    .t7-text__container{
-        margin:4px;
+    .t7-text__container_center{ 
+        margin-top:0%;
+        padding-top:0%;
     }
     .t7-text__container_full-size{
         margin:0;
     }
-    .t7-text__icon{
-        padding-bottom:4px;
-    }
+    
+    .t7-skill__box{
+        margin-right:2%;
+        margin-top:2%;
+    }  
     .t7-text__title{
-        margin-bottom: 2px;
+        margin-bottom: 0.3rem;
+    }  
+    .t7-text__paragraph{
+        line-height: 1.2rem;
+        margin-bottom: 3px;
     }
-    .t7-list__box{
-        margin:0;
+    .t7-form-feedback__input { 
+        line-height: 2.0rem;
+        padding-left:5px;
+        
     }
-    .t7-section-block__element{
+    .t7-form-feedback__message-box {
+        padding-left:5px;
+        line-height: 1.5rem;
+    }
+    .t7-form-feedback__button {
+        margin-top: 0.3rem;
+        padding-top:0.3rem;
+        padding-bottom: 0.3rem;
+    }
+    
+    .t7-text__icon{
+        padding-bottom:0.2rem;
+    }
+    .t7-text__title_s{
+        max-width:100%;
+    }
+    .t7-text__title_l{
+        max-width:100%;
+    }
+    .t7-text__container_full-size{
+        margin: 0%;
+        height:100%;
+        padding-left:0%;
+        padding-right:0%;
         width:100%;
     }
-   
     #section6{
         width:100%;
         font-size:50%;
@@ -143,15 +139,14 @@ html{
         width:100%;
     }
 }
-
-@media (max-width:600px){
-    html{
-            font-size:7px;
-        }
+@media (max-width:500px){
+    
+    
         .t7-main__container{
             margin:auto;
             width:100%;
             height:auto;
+            margin:auto;
         }
         img{
             width:100%;
@@ -161,42 +156,105 @@ html{
         .t7-section-block__base{
             display:block;
         }
-        .t7-skill__box{
-            margin:0px;
-            font-size:0.3rem;
+        .t7-section-block__element{
+            width:100%;
         }
-        .t7-text__paragraph{
-            margin-bottom:2px;
-        }
-        .t7-text__title_l{
-            margin-bottom:2px;
+        .t7-text__container_center{ 
+            padding-top:15%;
         }
         .t7-text__container{
-            margin:2px;
+            margin:5px;
+        }
+        .t7-text__container_full-size{
+            margin:0;
+            padding-right:2px;
+            padding-left:2px;
+            width:100%;
+
+        }
+        .t7-text__container_quarters{
+            justify-content: center;
+            align-items: center;
+            text-align: center;
+            margin-left: 0%;
+            margin-right: 0%;   
+        }
+        
+        .t7-skill__box{
+            margin-right:0%;
+            margin-top:0%;
+        }  
+        .t7-text__title{
+            margin-bottom: 2px;
+        }  
+        .t7-text__title_s{
+            margin-top:2px; 
+            max-width:100%;
+            
+        }
+        .t7-text__title_l{
+            line-height:2rem;
+            max-width:100%;
+        }
+        .t7-text__paragraph{
+            line-height: 1rem;
+            margin-bottom: 0.1rem;
+        }
+        .t7-form-feedback__input { 
+            line-height: 2.0rem;
+           width:90%;
+            
+        }
+        .t7-form-feedback__message-box {
+            width:90%;
+            line-height: 1.5rem;
+        }
+        .t7-form-feedback__button {
+            margin-top: 0.3rem;
+            padding-top:0.3rem;
+            padding-bottom: 0.3rem;
         }
         .t7-text__container_full-size{
             margin:0;
         }
         .t7-text__icon{
-            padding-bottom:2px;
+            padding-bottom:0.2rem;
         }
-        .t7-text__title{
-            margin-bottom: 2px;
+        .t7-text__title_l{
+            margin-bottom:1rem;
+        }
+        .t7-text__container_full-size{
+            margin: 0%;
+            height:100%;
+            padding-left:0%;
+            padding-right:0%;
+            width:100%;
+        
         }
         .t7-list__box{
-            margin:0;
+            display:inline-flex;
+            margin-top:5px;      
         }
+        .t7-list__icon{
+            padding-top:0px;
+        }
+        .t7-list__name{
+            padding-left:0px;
+        }
+        .t7-list__date{
+            margin-left:0px;
+            margin-top:0rem;
+        }
+        .t7-list__comment{
+            padding-left:0rem;
+        }
+       
         #section6{
-            width:50%;
+            width:100%;
             font-size:50%;
             margin: 0;
         }
         .t7-foot{
-            width:50%;
+            width:100%;
         }
     }
-    @media (max-width:00px){
-        html{
-                font-size:5px;
-            }
-        }
