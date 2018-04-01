@@ -47,7 +47,7 @@
     .t7-main__container{
         margin:auto;
         width:100%;
-        height:auto;
+        height:100%;
         
     }
     .t7-section-block__base{
@@ -56,6 +56,7 @@
     .t7-section-block__element_size-xl{
         height:80vh;
     }
+    
     
     .t7-menu__list{
         position:fixed;
@@ -141,6 +142,7 @@
 .t7-text__container{
     margin:5px;
 }
+
 .t7-text__paragraph{
     line-height: 1.2rem;
     margin-bottom: 0.1rem;
@@ -154,6 +156,12 @@
 }
 .t7-skill__name{
     padding-bottom: 3px;
+}
+.t7-section-block__element_size-xs{
+    height:45vh;
+}
+.t7-section-block__element_size-s{
+    height:52vh;
 }
 }
 @media (max-width:500px){
@@ -171,6 +179,18 @@
         }
         .t7-section-block__element_size-xl{
             height:65vh;
+        }
+        .t7-section-block__element_size-l{
+            height:50vh;
+        }
+        .t7-section-block__element_size-m{
+            height:50vh;
+        }
+        .t7-section-block__element_size-s{
+            height:48vh;
+        }
+        .t7-section-block__element_size-xs{
+            height:45vh;
         }
         .t7-text__container_center{ 
             padding-top:15%;
@@ -277,5 +297,13 @@
             font-size:1rem;
             font-weight:300;
             padding-left:3.0rem;
+        }
+    }
+    @media (max-width:350px){
+        .t7-section-block__element_size-xxs{
+            height:45vh;
+        }
+        .t7-section-block__element_size-s{
+            height:60vh;
         }
     }
