@@ -163,6 +163,9 @@
 .t7-section-block__element_size-s{
     height:52vh;
 }
+.t7-section-block__element_size-l{
+    height:52vh;
+}
 }
 @media (max-width:500px){
   html{
