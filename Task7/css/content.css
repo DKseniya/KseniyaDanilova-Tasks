@@ -104,7 +104,8 @@
 
 .t7-skill__box{
     display:flex;
-    flex-direction:row; 
+    flex-direction:row;
+    align-content:  center;
     margin-right: 5%;
     margin-top:10%;
     font-family: 'SourceSansPro';
